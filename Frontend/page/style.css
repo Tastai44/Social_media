@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@100&family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Glory:wght@100&family=Teko:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #173d64;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Teko', sans-serif;
+}
+p{
+    color: red;
+    display: none;
+    font-size: 20px;
+}
+
+.container{
+    height: auto;
+    width: 400px;
+    box-shadow: 0 0 50px black;
+    padding: 0px 15px;
+    position: relative;
+    border-radius: 7px;
+}
+
+.img_container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+}
+.fields{
+    margin-top: 10px;
+}
+
+.form-group{
+    margin: 10px 0 20px 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 1px;
+}
+input {
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    min-width: 375px;
+    padding-left: 20p;
+    background-color: rgb(250, 250, 250);
+    color: black;
+    font-size: 17px;
+    outline: none;
+    font-family: 'Architects Daughter', cursive;
+}
+input:hover {
+    border-color: blue;
+  }
+
+input::placeholder{
+    font-family: 'Teko', sans-serif;
+    color: rgb(165, 164, 164);
+}
+.login-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    margin: 5px;
+    padding: 1px 20px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-family: 'Architects Daughter', cursive;
+    background: transparent;
+    border: 1px solid whitesmoke;
+    color: white;
+    transition: 0.5s;
+}
+button:hover{
+    background: white;
+    color: black;
+}
+
+.login-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.login-footer a{
+    color: rgb(201, 201, 201);
+    text-decoration: none;
+    margin: 10px 20px;
+}
+.login-footer a:hover{
+    color: red;
+}
+.login-width{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.social-link i{
+    margin: 10px 20px;
+    transition: 0.5s;
+}
+.social-link i:nth-child(1){
+    border: 1px solid white;
+    padding: 10px 11px;
+    border-radius: 50%;
+}
+.social-link i:nth-child(2){
+    border: 1px solid white;
+    padding: 10px 11px;
+    border-radius: 50%;
+}
+.social-link i:nth-child(3){
+    border: 1px solid white;
+    padding: 10px 11px;
+    border-radius: 50%;
+}
+.social-link i:hover{
+    background: white;
+   color: rgb(5, 5, 5);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #04b88d;
+    padding: 5px 2%;
+    top: 0;
+    z-index: 100;
+}
+
+li:hover{
+    background: #039b76;
+}
+.header{
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    color: #efefef;
+    margin-right:20px ;
+}
+.nav-user-icon img{
+    width: 40px;
+    cursor: pointer;
+}
+.nav-user-icon {
+    margin-left: 30px;
+}
+.picture {
+    width: 90px;
+    margin-right: 45px;
+}
+.nav-left, .nav-right{
+    display: flex;
+    align-items: center;
+}
+.nav-left ul li {
+    list-style: none;
+    display: inline-block;
+    color: #efefef;
+}
+.nav-left ul li img {
+    width: 28px;
+    margin: 0 25px;
+}
+.search-box {
+    background: #efefef;
+    width: 350px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+.search-box img{
+    width: 18px;
+}
+.search-box input{
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    border: 0;
+}
